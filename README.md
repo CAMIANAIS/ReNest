@@ -9,6 +9,8 @@ ReNest is a fictional local marketplace for second-hand furniture. In one week, 
 * **Final presentation (4 min):** https://www.youtube.com/watch?v=g4Ymv-RAy3Q
 * **Clickable prototype:** https://re-nest-peek.lovable.app (a quick AI-made prototype to show the MVP idea, not a real build)
 
+![ReNest MVP flow: browse, listing with damage photo, blocked publish, mark as sold and photo-match survey](media/renest-mvp-flow.gif)
+
 ## The week
 
 | Day | Step | Doc |
