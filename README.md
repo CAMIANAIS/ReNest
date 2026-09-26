@@ -4,6 +4,10 @@ ReNest is a fictional local marketplace for second-hand furniture. In one week, 
 
 **The problem:** buyers can't tell if a used item is worth contacting the seller about, so good listings go stale and buyers leave.
 
+* **What I did:** I took one ReNest problem, buyers can't trust listing photos, from a raw problem to a delivery-ready MVP.
+* **My main call:** #4 (damage photo slot) first, because it shows the real damage Greg worries about.
+* **What I'm proud of:** I challenged AI output instead of just accepting it. I used Claude and Codex on the same info, and checked everything against my own docs.
+
 ## 🎬 See it
 
 * **Final presentation (4 min):** https://www.youtube.com/watch?v=g4Ymv-RAy3Q
