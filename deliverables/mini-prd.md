@@ -72,6 +72,12 @@
 - Functional: the system resizes photos wider than 1600px down to 1600px, so they load faster.
 - Non-functional: the full batch of 5 photos finishes uploading within 10 seconds on a standard 4G connection.
 
+**Tradeoffs & decision**
+
+- 5 photo rule instead of less quantity since user value quantity of pictures to look at
+- I chose 5 because it give the user different angles from the product
+- Risk I accept: Sellers could leave app withouth listing because they cannot take picture picture from an angle.
+
 ### Feature: Seller photo-match score
 
 - Functional: the score (e.g. "9 of 10 buyers said the photos matched") shows next to the seller information, on the listing page and on the listing preview.
