@@ -74,9 +74,9 @@
 
 **Tradeoffs & decision**
 
-- 5 photo rule instead of less quantity since user value quantity of pictures to look at
+- 5 photo rule instead of 3 since user value quantity of pictures to look at, 5 angles help see condition better.
 - I chose 5 because it give the user different angles from the product
-- Risk I accept: Sellers could leave app withouth listing because they cannot take picture picture from an angle.
+- Risk I accept: Sellers could leave app without listing because they cannot take picture from an angle. If sellers quit, Guardrail 2 shows it.
 
 ### Feature: Seller photo-match score
 
@@ -91,6 +91,12 @@
 - Functional: the listing preview (search results) shows a small "Damage shown" or "No damage declared" label, so buyers can compare without opening each listing.
 - Non-functional: the "Scratches & damage" section loads within 2 seconds on 4G.
 
+**Tradeoffs & decision**
+
+- Extra photo slot instead of avoiding since this would be the factor decision of buyers sent a message to seller
+- I chose this special slot because it is an honest and easy way to show what buyers matter most, condition
+- Risk I accept: Sellers may lie with "No visible damage" and I accept the risk since Guardrail 1 could catch it.
+
 ### Feature: “Photos taken on" date on listings
 
 - Functional: the listing shows "Photos taken on [month, year]," using the capture date stored in the photo file (EXIF data).
@@ -99,6 +105,12 @@
 - Non-functional: the date is read from the photo on the device before resizing, because resizing can remove it.
 
   > ❓ **Open question:** EXIF dates can be edited or removed. Check with devs whether they're reliable enough to show. If not, move #8 to Next and replace it with photos taken in the ReNest camera, which the app can date itself.
+
+**Tradeoffs & decision**
+
+- Show date or metadata from the product instead of hiding since this could help buyer as well to trust on conditions on pictures
+- I chose show date because know date of taken on is a helpful way to know information is not stale
+- Risk I accept: EXIF dates can be faked or removed. In case there is not a date, the label would be photo date unknown.
 
 ## MVP hypothesis
 
